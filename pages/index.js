@@ -15,12 +15,11 @@ export default function Index({ posts, globalData }) {
       <Header name={globalData.name} />
       <main className="w-full">
       <Link href="/apitest">
-            <a
-              href="/apitest"
+            <button
               className="px-4 md:px-8 py-2 md:py-3 rounded-full bg-blue-400 text-white font-bold uppercase border-blue-500 border hover:bg-blue-600"
             >
               Launch More apitest
-            </a>
+            </button>
           </Link>
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           {globalData.blogTitle}
