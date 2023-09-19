@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { locationDetails } from './data';
 
 
-const weather = () => {
+export default function Weather({ }) {
+
 
   // const [location, setLocation] = useState([]); //useState hook to initialize the state to an empty array
   const [newSunrise, setSunrise] = useState([]);
@@ -196,5 +197,3 @@ const weather = () => {
     </>
   )
 };
-
-  export default weather;
